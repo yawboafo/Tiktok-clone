@@ -1,0 +1,1104 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02916ECCE40FF1CB1548A3312CCDD448 /* UIView+LayoutFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545FEB83719A243E02C7895E76444D4C /* UIView+LayoutFit.swift */; };
+		05BD79914F0A8DEB17845AE6B12BD6FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		080E48CD6EE65751C5B8D0C1B014EBD3 /* MMPlayer+UIViewController+CheckProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABC92A37C8A1E59F771D3EE27419977 /* MMPlayer+UIViewController+CheckProtocol.swift */; };
+		08EB70ABAB4EF6A0F8E117DFB2A4032A /* Pods-TiktokClone-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 113B0353009C83C8DEF5486192789275 /* Pods-TiktokClone-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7EC1F657E6FACAF05E74F7D4349ECE /* MMPlayerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AA8528AC52138412EE278B5BF4D0C5 /* MMPlayerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B942DFAA252A47B4D75D2A7145C7888 /* MMPlayerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905B93CFFAD0728609AF9D2BC4D22009 /* MMPlayerProtocol.swift */; };
+		17501E6541CEF7B35004A66EEA73086B /* MMLandscapeWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7F1DC24CB23AE85C8954D0093542F5 /* MMLandscapeWindow.swift */; };
+		1ED7DF3853730477CF49DAAAC590E41F /* SwiftyCam-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B15E06261D5DAF65A6974D27B6C4A83E /* SwiftyCam-dummy.m */; };
+		2F3135470C0958148D05819B4227547C /* SwiftyCam-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA27860C5EA4FC523086C178AC53235 /* SwiftyCam-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3210D0D13B6051E568707032A293D834 /* SwiftyCamButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB646EBC1D18560DD60597F4B4F058B /* SwiftyCamButton.swift */; };
+		3AC18C5D2F96A5E9ABACD637581E2018 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		3AF8BE745BC633E8C37D697D2A1BA58D /* MMPlayerBasePresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98B1B6FA009DE99E74BC1ED74AFE460 /* MMPlayerBasePresentationController.swift */; };
+		41EF5FF7A1152D3E3F5655C857269E91 /* MMPlayerPassViewPushTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7879942AF452F1255C564DB8294A6EC8 /* MMPlayerPassViewPushTransition.swift */; };
+		45D23BFA494A4CBD07DB54D296BBD7E3 /* MMPlayer+NSObject+Replace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840AE607724D0ECB9202C2EA9A051762 /* MMPlayer+NSObject+Replace.swift */; };
+		4A4F20E4D058AB407B535F6CC88313E0 /* SwiftVideoBackground-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 440299737E149371F449308D813A485A /* SwiftVideoBackground-dummy.m */; };
+		4CE43E5BC22774CD4991D53467905C26 /* MMPlayerPassViewPushConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DC364A6814C008AF2C5E1E7FC401E4 /* MMPlayerPassViewPushConfig.swift */; };
+		4DC58A636921448CFAC1BFE46E123CEE /* WeakBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCCFA089DA6885FB1121BB3FD4AF933 /* WeakBox.swift */; };
+		4E0B9CD40A94798EB5EEB044960E8EFE /* MMPlayerObservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE62EDBE50801FBACD5DCE501AB2115 /* MMPlayerObservation.swift */; };
+		531993B70B5D04A0DB9EBFDCC87C1205 /* MMPlayerShrinkControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E079196CC8180375AEA7D897FE8E570 /* MMPlayerShrinkControl.swift */; };
+		57B390BFC2EBC39627577A3A7C76C068 /* MMPlayerDownLoadVideoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BC61626A22AADD29C5ED5B4ED76109 /* MMPlayerDownLoadVideoInfo.swift */; };
+		585208422F214671A7182DF98C056ACC /* MMPlayerBaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7527FF55380F6E9F02ADE306B19C86 /* MMPlayerBaseTransition.swift */; };
+		5C2CC44191D22E41156B98B1BD4E77B8 /* VideoBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = D628D14BE441B2A32CD796D0CB30E6AF /* VideoBackground.swift */; };
+		5E1AEF07C88ED6D3729768E7F316EA23 /* MMPlayer+UIView+Load.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47D311ABE7370EF85575E834CF4BAA7 /* MMPlayer+UIView+Load.swift */; };
+		61FB1AA2F03FBBFFA6940087FC996974 /* MMPlayerTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED83236CFA5FFEDF56FF47348890E32A /* MMPlayerTransition.swift */; };
+		706C995E654EEBF1F0C5E5562215D54E /* MMPlayer+UINavigationController+Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA8876D6FAB9065D18609DCEE394E1B /* MMPlayer+UINavigationController+Proxy.swift */; };
+		755859B314088182F2FCF17BE46A47EC /* SwiftVideoBackground.h in Headers */ = {isa = PBXBuildFile; fileRef = 423F47EB496944E3DD2FD25D2B87B93A /* SwiftVideoBackground.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		764C58EE30CAAC62849BF446B4D08714 /* MMPlayerTransitionDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FD211A9BF5DA5ED27BA2D86EB7F39E /* MMPlayerTransitionDefine.swift */; };
+		769F54EC7E679CE73EF7C3A9DD73B4B2 /* MMPlayerDownloadRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6F1ABA986BC831FE6A69A37BCF6665 /* MMPlayerDownloadRequest.swift */; };
+		7D146550E47B82C7BB4E5E70296B6A1D /* MMPlayerPassViewPresentatinController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF45AA930F0304BED986815687DB5F6A /* MMPlayerPassViewPresentatinController.swift */; };
+		8FA8EE7A4DE185A453827BB221AF18EE /* MMPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C736D1173377BFE0E03D0A0E800FE741 /* MMPlayerView.swift */; };
+		9670D4BF3E6C0BD175836C265422DEED /* MMPlayer+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F3BE9FA7BE3744B70A0AB5861189B9 /* MMPlayer+Codable.swift */; };
+		A4A400B7B48E2870BDF6E6B1F3F7022F /* UIWindow+Safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744420335FA6D05A433C279DD33C2B2C /* UIWindow+Safe.swift */; };
+		A939F0B204DF5B82F79510BDEFD280F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		ADCEB8751BEF16F3038880CC507EF289 /* VideoBackgroundError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F04366C3C4C5CA1D7206E5E580E54A7 /* VideoBackgroundError.swift */; };
+		AF31667B440AC15D1BD3EEBC32A90E1A /* MMPlayerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E77B6D98F8E4933DF0D5DFAC3D4773 /* MMPlayerView-dummy.m */; };
+		B11C66C5291DCFBD593306B6DBC98788 /* MMPlayerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F9E6DC85D4CF01EFE0F8156E486615 /* MMPlayerLayer.swift */; };
+		B6A37CEE32FA13B0A854D1ACE576CE20 /* MMPlayerPushAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E11D16028B8776BE98FBD17319A14B0 /* MMPlayerPushAnimator.swift */; };
+		BD488E191EF246B9017122419B4CD02F /* SwiftyCamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9434C9F9CDEC30E10BF9A41FFAFF86E /* SwiftyCamViewController.swift */; };
+		BFBC1B7A5569482D2833BDDEA7F4AEB5 /* MMPlayerPassViewPresentTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DF6BA4A0D987481D26F40689D9A66A /* MMPlayerPassViewPresentTransition.swift */; };
+		C3FF837FFA6FB0E6DD3C19AD482AB832 /* MMPlayer+UIView+Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959CADCA851750E6137C7CE5E8C1DF4A /* MMPlayer+UIView+Shadow.swift */; };
+		C5C481E7B84655E11580A0D404884E98 /* MMPlayer+DispatchQueue+Once.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B34C7D8E0BBEA0C3CA592ABC3F03A70 /* MMPlayer+DispatchQueue+Once.swift */; };
+		C6FC2ABF35A9F4E8E13590B138E80B90 /* Pods-TiktokClone-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C696BB78B39D9CF937C9CEC1CB6083 /* Pods-TiktokClone-dummy.m */; };
+		D29E84F398A3810DA19E5C33C3B65AC9 /* MMPlayerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A6977751057F0AA4DA6C8DA361055C /* MMPlayerItem.swift */; };
+		D4F765099C1B27EA3B4F9D6FFBFC0B55 /* MMPlayerCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD6BC2E29E6403E00144B7957AE4387 /* MMPlayerCache.swift */; };
+		DD363672B4A7CF3FF8E9EFBB7C634ED9 /* MMPlayerPassViewPresentConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1CBCA536FB4EC96E3C1F6081E9A608 /* MMPlayerPassViewPresentConfig.swift */; };
+		DEE8F155B10F556E20D71A2A54C94DCF /* MMPlayerDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB5B132CF236627A88FDB4AC7E30DAD /* MMPlayerDownloadManager.swift */; };
+		E18AD002CFADD213B1AB4B2865151B0D /* SwiftVideoBackground-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4CF5629156BFD569D1A2C407EC7EB15 /* SwiftVideoBackground-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB9B1A0CF373848578915EDB65784A85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		EBBD7DFC20CC2471366BA9B52C9EBB6B /* SwiftyCamViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96EB84E9CFAE6055844AB61C26EBC26 /* SwiftyCamViewControllerDelegate.swift */; };
+		F18B8DEB897B6E8AA70CD9F7EEB98B24 /* MMProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30E4E7E1CE2C62C35D398F93899A647 /* MMProgress.swift */; };
+		F4D9FA0A9412662B36F12FE282C9C985 /* MMPlayer+String+Encode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1BE4AA914B8068D4C4EA015A5F374A /* MMPlayer+String+Encode.swift */; };
+		F5126F7F581CF3B9BB4DCB88AF277CC3 /* MMPlayerDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA9C96B631270EADAD154F9D5FAC580 /* MMPlayerDownloader.swift */; };
+		F66A64B3C5B0ACD6DAB67E7DD72E14BB /* MMPlayerPresentAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E43E7A36CDAC15268F7F48D934CB73 /* MMPlayerPresentAnimator.swift */; };
+		F797AAABFD84F5A7F572CD25C4D84851 /* Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0A2DAA3F003DBB59133AFF4A2D797E /* Orientation.swift */; };
+		FE4043F96C8E52CA3FB631A8436D3170 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABE2F45BE6C92B3E2E8F982B628230B /* PreviewView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D4938EB7C199C09CA3501BFB82AADE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D6A8131E0BE7420BCF78DC9BD4B117F;
+			remoteInfo = SwiftyCam;
+		};
+		5AFA8332ECF72DA6BF5ABB345E3DE433 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A729AC3C574A394CA785CF2595987819;
+			remoteInfo = SwiftVideoBackground;
+		};
+		B064CDD3B11CD3A7D3EE6BF05F502F34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD419522F78435A93B4CED3C713F84F6;
+			remoteInfo = MMPlayerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03F9E6DC85D4CF01EFE0F8156E486615 /* MMPlayerLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMPlayerLayer.swift; path = MMPlayerView/Classes/MMPlayerLayer.swift; sourceTree = "<group>"; };
+		06E43E7A36CDAC15268F7F48D934CB73 /* MMPlayerPresentAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMPlayerPresentAnimator.swift; path = MMPlayerView/Classes/Transition/PresentModal/MMPlayerPresentAnimator.swift; sourceTree = "<group>"; };
+		07264419955675DA56137F7C74D86122 /* SwiftyCam.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyCam.xcconfig; sourceTree = "<group>"; };
+		0B4B2F940376DA30B2E897D4DF7BFA6C /* SwiftyCam.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyCam.modulemap; sourceTree = "<group>"; };
+		0C1BE4AA914B8068D4C4EA015A5F374A /* MMPlayer+String+Encode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MMPlayer+String+Encode.swift"; path = "MMPlayerView/Classes/Extension/MMPlayer+String+Encode.swift"; sourceTree = "<group>"; };
+		113B0353009C83C8DEF5486192789275 /* Pods-TiktokClone-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TiktokClone-umbrella.h"; sourceTree = "<group>"; };
+		16C696BB78B39D9CF937C9CEC1CB6083 /* Pods-TiktokClone-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TiktokClone-dummy.m"; sourceTree = "<group>"; };
+		1A7F1DC24CB23AE85C8954D0093542F5 /* MMLandscapeWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMLandscapeWindow.swift; path = MMPlayerView/Classes/Landscape/MMLandscapeWindow.swift; sourceTree = "<group>"; };
+		1D7527FF55380F6E9F02ADE306B19C86 /* MMPlayerBaseTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMPlayerBaseTransition.swift; path = MMPlayerView/Classes/Transition/MMPlayerBaseTransition.swift; sourceTree = "<group>"; };
+		1E079196CC8180375AEA7D897FE8E570 /* MMPlayerShrinkControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMPlayerShrinkControl.swift; path = MMPlayerView/Classes/Transition/MMPlayerShrinkControl.swift; sourceTree = "<group>"; };
+		21DC364A6814C008AF2C5E1E7FC401E4 /* MMPlayerPassViewPushConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMPlayerPassViewPushConfig.swift; path = MMPlayerView/Classes/Transition/Navigation/ShowPassView/MMPlayerPassViewPushConfig.swift; sourceTree = "<group>"; };
+		22BC61626A22AADD29C5ED5B4ED76109 /* MMPlayerDownLoadVideoInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMPlayerDownLoadVideoInfo.swift; path = MMPlayerView/Classes/Downloader/MMPlayerDownLoadVideoInfo.swift; sourceTree = "<group>"; };
+		2B34C7D8E0BBEA0C3CA592ABC3F03A70 /* MMPlayer+DispatchQueue+Once.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MMPlayer+DispatchQueue+Once.swift"; path = "MMPlayerView/Classes/Extension/MMPlayer+DispatchQueue+Once.swift"; sourceTree = "<group>"; };
+		350025210F9E7C7222C9466963F068FC /* Pods-TiktokClone-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TiktokClone-acknowledgements.plist"; sourceTree = "<group>"; };
+		3FF4620A4C14FCAE421B44308FFDDF88 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		423F47EB496944E3DD2FD25D2B87B93A /* SwiftVideoBackground.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftVideoBackground.h; path = SwiftVideoBackground/Sources/SwiftVideoBackground.h; sourceTree = "<group>"; };
+		42F3BE9FA7BE3744B70A0AB5861189B9 /* MMPlayer+Codable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MMPlayer+Codable.swift"; path = "MMPlayerView/Classes/Extension/MMPlayer+Codable.swift"; sourceTree = "<group>"; };
+		440299737E149371F449308D813A485A /* SwiftVideoBackground-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftVideoBackground-dummy.m"; sourceTree = "<group>"; };
+		545FEB83719A243E02C7895E76444D4C /* UIView+LayoutFit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+LayoutFit.swift"; path = "MMPlayerView/Classes/Extension/UIView+LayoutFit.swift"; sourceTree = "<group>"; };
+		55D4DFA78F508C0111E196B591CF4DBE /* Pods-TiktokClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TiktokClone.release.xcconfig"; sourceTree = "<group>"; };
+		56DF6BA4A0D987481D26F40689D9A66A /* MMPlayerPassViewPresentTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMPlayerPassViewPresentTransition.swift; path = MMPlayerView/Classes/Transition/PresentModal/ShowPassView/MMPlayerPassViewPresentTransition.swift; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5C24B21C192E23B7AA170E617C645148 /* Pods_TiktokClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TiktokClone.framework; path = "Pods-TiktokClone.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FB646EBC1D18560DD60597F4B4F058B /* SwiftyCamButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyCamButton.swift; path = Source/SwiftyCamButton.swift; sourceTree = "<group>"; };
+		60A3408671EF2E4B793585DB49FC3BCB /* MMPlayerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMPlayerView-prefix.pch"; sourceTree = "<group>"; };
+		61A8279C293BE32A9FFC98157F08C37C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62A6977751057F0AA4DA6C8DA361055C /* MMPlayerItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMPlayerItem.swift; path = MMPlayerView/Classes/Item/MMPlayerItem.swift; sourceTree = "<group>"; };
+		69617FC8ADC434169C52A7D62A5A21A3 /* Pods-TiktokClone.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TiktokClone.modulemap"; sourceTree = "<group>"; };
+		6BB5B132CF236627A88FDB4AC7E30DAD /* MMPlayerDownloadManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMPlayerDownloadManager.swift; path = MMPlayerView/Classes/Downloader/MMPlayerDownloadManager.swift; sourceTree = "<group>"; };
+		6DD6BC2E29E6403E00144B7957AE4387 /* MMPlayerCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMPlayerCache.swift; path = MMPlayerView/Classes/Cache/MMPlayerCache.swift; sourceTree = "<group>"; };
+		6E6F1ABA986BC831FE6A69A37BCF6665 /* MMPlayerDownloadRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMPlayerDownloadRequest.swift; path = MMPlayerView/Classes/Downloader/MMPlayerDownloadRequest.swift; sourceTree = "<group>"; };
+		702A6B683B84C75D179AA3431E7A94C4 /* SwiftVideoBackground-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftVideoBackground-prefix.pch"; sourceTree = "<group>"; };
+		744420335FA6D05A433C279DD33C2B2C /* UIWindow+Safe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIWindow+Safe.swift"; path = "MMPlayerView/Classes/Extension/UIWindow+Safe.swift"; sourceTree = "<group>"; };
+		7879942AF452F1255C564DB8294A6EC8 /* MMPlayerPassViewPushTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMPlayerPassViewPushTransition.swift; path = MMPlayerView/Classes/Transition/Navigation/ShowPassView/MMPlayerPassViewPushTransition.swift; sourceTree = "<group>"; };
+		78B09994AAD77F3074ABAEFEEB49463A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E11D16028B8776BE98FBD17319A14B0 /* MMPlayerPushAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMPlayerPushAnimator.swift; path = MMPlayerView/Classes/Transition/Navigation/MMPlayerPushAnimator.swift; sourceTree = "<group>"; };
+		7F0A2DAA3F003DBB59133AFF4A2D797E /* Orientation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Orientation.swift; path = Source/Orientation.swift; sourceTree = "<group>"; };
+		840AE607724D0ECB9202C2EA9A051762 /* MMPlayer+NSObject+Replace.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MMPlayer+NSObject+Replace.swift"; path = "MMPlayerView/Classes/Extension/MMPlayer+NSObject+Replace.swift"; sourceTree = "<group>"; };
+		89E58EE7F6D55BCDAED31BD66AF3F208 /* Pods-TiktokClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TiktokClone.debug.xcconfig"; sourceTree = "<group>"; };
+		8AA9C96B631270EADAD154F9D5FAC580 /* MMPlayerDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMPlayerDownloader.swift; path = MMPlayerView/Classes/Downloader/MMPlayerDownloader.swift; sourceTree = "<group>"; };
+		8BE62EDBE50801FBACD5DCE501AB2115 /* MMPlayerObservation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMPlayerObservation.swift; path = MMPlayerView/Classes/Observer/MMPlayerObservation.swift; sourceTree = "<group>"; };
+		8DF1333191E851A84874FD7D53DA60A7 /* SwiftyCam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyCam.framework; path = SwiftyCam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F04366C3C4C5CA1D7206E5E580E54A7 /* VideoBackgroundError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoBackgroundError.swift; path = SwiftVideoBackground/Sources/VideoBackgroundError.swift; sourceTree = "<group>"; };
+		905B93CFFAD0728609AF9D2BC4D22009 /* MMPlayerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMPlayerProtocol.swift; path = MMPlayerView/Classes/MMPlayerProtocol.swift; sourceTree = "<group>"; };
+		9382CBB8610E24999B2AB8A4F793E3E8 /* MMPlayerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MMPlayerView.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		959CADCA851750E6137C7CE5E8C1DF4A /* MMPlayer+UIView+Shadow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MMPlayer+UIView+Shadow.swift"; path = "MMPlayerView/Classes/Extension/MMPlayer+UIView+Shadow.swift"; sourceTree = "<group>"; };
+		A30E4E7E1CE2C62C35D398F93899A647 /* MMProgress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMProgress.swift; path = MMPlayerView/Classes/MMProgress.swift; sourceTree = "<group>"; };
+		A5AA8528AC52138412EE278B5BF4D0C5 /* MMPlayerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMPlayerView-umbrella.h"; sourceTree = "<group>"; };
+		A7D933E8F4098276DC0609AE45EAFF67 /* SwiftVideoBackground.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftVideoBackground.modulemap; sourceTree = "<group>"; };
+		A9434C9F9CDEC30E10BF9A41FFAFF86E /* SwiftyCamViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyCamViewController.swift; path = Source/SwiftyCamViewController.swift; sourceTree = "<group>"; };
+		A96EB84E9CFAE6055844AB61C26EBC26 /* SwiftyCamViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyCamViewControllerDelegate.swift; path = Source/SwiftyCamViewControllerDelegate.swift; sourceTree = "<group>"; };
+		AA5E1B5C43F42A80A4FC40BEF6FBB980 /* MMPlayerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMPlayerView.xcconfig; sourceTree = "<group>"; };
+		AABE2F45BE6C92B3E2E8F982B628230B /* PreviewView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PreviewView.swift; path = Source/PreviewView.swift; sourceTree = "<group>"; };
+		ADA27860C5EA4FC523086C178AC53235 /* SwiftyCam-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyCam-umbrella.h"; sourceTree = "<group>"; };
+		B15E06261D5DAF65A6974D27B6C4A83E /* SwiftyCam-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyCam-dummy.m"; sourceTree = "<group>"; };
+		B4E77B6D98F8E4933DF0D5DFAC3D4773 /* MMPlayerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMPlayerView-dummy.m"; sourceTree = "<group>"; };
+		BAEB8D68E1C12BAE7E62600FE89267DE /* Pods-TiktokClone-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TiktokClone-frameworks.sh"; sourceTree = "<group>"; };
+		C16877DD0C14F89C33D69E13FDAA4B51 /* MMPlayerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MMPlayerView.framework; path = MMPlayerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C526C4C7867E567A48305B6E6D02E8AD /* Pods-TiktokClone-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TiktokClone-resources.sh"; sourceTree = "<group>"; };
+		C736D1173377BFE0E03D0A0E800FE741 /* MMPlayerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMPlayerView.swift; path = MMPlayerView/Classes/MMPlayerView.swift; sourceTree = "<group>"; };
+		CEA8876D6FAB9065D18609DCEE394E1B /* MMPlayer+UINavigationController+Proxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MMPlayer+UINavigationController+Proxy.swift"; path = "MMPlayerView/Classes/Extension/MMPlayer+UINavigationController+Proxy.swift"; sourceTree = "<group>"; };
+		CFCCFA089DA6885FB1121BB3FD4AF933 /* WeakBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WeakBox.swift; path = MMPlayerView/Classes/Observer/WeakBox.swift; sourceTree = "<group>"; };
+		D38740D30D766B04C3CD235F494F982C /* SwiftVideoBackground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftVideoBackground.framework; path = SwiftVideoBackground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D628D14BE441B2A32CD796D0CB30E6AF /* VideoBackground.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoBackground.swift; path = SwiftVideoBackground/Sources/VideoBackground.swift; sourceTree = "<group>"; };
+		DABC92A37C8A1E59F771D3EE27419977 /* MMPlayer+UIViewController+CheckProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MMPlayer+UIViewController+CheckProtocol.swift"; path = "MMPlayerView/Classes/Extension/MMPlayer+UIViewController+CheckProtocol.swift"; sourceTree = "<group>"; };
+		DC1CBCA536FB4EC96E3C1F6081E9A608 /* MMPlayerPassViewPresentConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMPlayerPassViewPresentConfig.swift; path = MMPlayerView/Classes/Transition/PresentModal/ShowPassView/MMPlayerPassViewPresentConfig.swift; sourceTree = "<group>"; };
+		DF1F7E4A16BEDEC482FB44BB69851C5B /* Pods-TiktokClone-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TiktokClone-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E12330B1DBB5CB28EB48756B3D07B634 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E47D311ABE7370EF85575E834CF4BAA7 /* MMPlayer+UIView+Load.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MMPlayer+UIView+Load.swift"; path = "MMPlayerView/Classes/Extension/MMPlayer+UIView+Load.swift"; sourceTree = "<group>"; };
+		E4CF5629156BFD569D1A2C407EC7EB15 /* SwiftVideoBackground-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftVideoBackground-umbrella.h"; sourceTree = "<group>"; };
+		E8DC532BD353B1AB77C3C5517896666A /* SwiftVideoBackground.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftVideoBackground.xcconfig; sourceTree = "<group>"; };
+		E98B1B6FA009DE99E74BC1ED74AFE460 /* MMPlayerBasePresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMPlayerBasePresentationController.swift; path = MMPlayerView/Classes/Transition/PresentModal/MMPlayerBasePresentationController.swift; sourceTree = "<group>"; };
+		EA9C437E075A459DE2609C2A1AA0C96E /* SwiftyCam-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyCam-prefix.pch"; sourceTree = "<group>"; };
+		ED83236CFA5FFEDF56FF47348890E32A /* MMPlayerTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMPlayerTransition.swift; path = MMPlayerView/Classes/Transition/MMPlayerTransition.swift; sourceTree = "<group>"; };
+		F3FD211A9BF5DA5ED27BA2D86EB7F39E /* MMPlayerTransitionDefine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMPlayerTransitionDefine.swift; path = MMPlayerView/Classes/Transition/MMPlayerTransitionDefine.swift; sourceTree = "<group>"; };
+		FF45AA930F0304BED986815687DB5F6A /* MMPlayerPassViewPresentatinController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMPlayerPassViewPresentatinController.swift; path = MMPlayerView/Classes/Transition/PresentModal/ShowPassView/MMPlayerPassViewPresentatinController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A1078FB1FAAD34E8CFAEC764322286F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC18C5D2F96A5E9ABACD637581E2018 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67684438A46929AE05876D37E709BB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BD79914F0A8DEB17845AE6B12BD6FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38A8A0720834EDD3356EA752211FC5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A939F0B204DF5B82F79510BDEFD280F9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED04937A10C7A04A20A1867F7650C2A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9B1A0CF373848578915EDB65784A85 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34868566F1ADE32D87028834A2BB7D43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C16877DD0C14F89C33D69E13FDAA4B51 /* MMPlayerView.framework */,
+				5C24B21C192E23B7AA170E617C645148 /* Pods_TiktokClone.framework */,
+				D38740D30D766B04C3CD235F494F982C /* SwiftVideoBackground.framework */,
+				8DF1333191E851A84874FD7D53DA60A7 /* SwiftyCam.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B98B7232DAC3C473128BB3BEC65EDDD /* Pods-TiktokClone */ = {
+			isa = PBXGroup;
+			children = (
+				3FF4620A4C14FCAE421B44308FFDDF88 /* Info.plist */,
+				69617FC8ADC434169C52A7D62A5A21A3 /* Pods-TiktokClone.modulemap */,
+				DF1F7E4A16BEDEC482FB44BB69851C5B /* Pods-TiktokClone-acknowledgements.markdown */,
+				350025210F9E7C7222C9466963F068FC /* Pods-TiktokClone-acknowledgements.plist */,
+				16C696BB78B39D9CF937C9CEC1CB6083 /* Pods-TiktokClone-dummy.m */,
+				BAEB8D68E1C12BAE7E62600FE89267DE /* Pods-TiktokClone-frameworks.sh */,
+				C526C4C7867E567A48305B6E6D02E8AD /* Pods-TiktokClone-resources.sh */,
+				113B0353009C83C8DEF5486192789275 /* Pods-TiktokClone-umbrella.h */,
+				89E58EE7F6D55BCDAED31BD66AF3F208 /* Pods-TiktokClone.debug.xcconfig */,
+				55D4DFA78F508C0111E196B591CF4DBE /* Pods-TiktokClone.release.xcconfig */,
+			);
+			name = "Pods-TiktokClone";
+			path = "Target Support Files/Pods-TiktokClone";
+			sourceTree = "<group>";
+		};
+		44D0D55BE2FD2EB59BBB500C7A53BD68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D8F5340F7FD5E83F73595F32A659E2C /* MMPlayerView */,
+				495623A90E3CE11FEB965F303C8E6D57 /* SwiftVideoBackground */,
+				E77A06670B37E8CCF29B4270E6BA9667 /* SwiftyCam */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		495623A90E3CE11FEB965F303C8E6D57 /* SwiftVideoBackground */ = {
+			isa = PBXGroup;
+			children = (
+				423F47EB496944E3DD2FD25D2B87B93A /* SwiftVideoBackground.h */,
+				D628D14BE441B2A32CD796D0CB30E6AF /* VideoBackground.swift */,
+				8F04366C3C4C5CA1D7206E5E580E54A7 /* VideoBackgroundError.swift */,
+				D7533D5D3FD26EBF094A7A6289DA1625 /* Support Files */,
+			);
+			name = SwiftVideoBackground;
+			path = SwiftVideoBackground;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				44D0D55BE2FD2EB59BBB500C7A53BD68 /* Pods */,
+				34868566F1ADE32D87028834A2BB7D43 /* Products */,
+				A63DA53C6A9EDF777BA012B966D4480F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8D8F5340F7FD5E83F73595F32A659E2C /* MMPlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				1A7F1DC24CB23AE85C8954D0093542F5 /* MMLandscapeWindow.swift */,
+				42F3BE9FA7BE3744B70A0AB5861189B9 /* MMPlayer+Codable.swift */,
+				2B34C7D8E0BBEA0C3CA592ABC3F03A70 /* MMPlayer+DispatchQueue+Once.swift */,
+				840AE607724D0ECB9202C2EA9A051762 /* MMPlayer+NSObject+Replace.swift */,
+				0C1BE4AA914B8068D4C4EA015A5F374A /* MMPlayer+String+Encode.swift */,
+				CEA8876D6FAB9065D18609DCEE394E1B /* MMPlayer+UINavigationController+Proxy.swift */,
+				E47D311ABE7370EF85575E834CF4BAA7 /* MMPlayer+UIView+Load.swift */,
+				959CADCA851750E6137C7CE5E8C1DF4A /* MMPlayer+UIView+Shadow.swift */,
+				DABC92A37C8A1E59F771D3EE27419977 /* MMPlayer+UIViewController+CheckProtocol.swift */,
+				E98B1B6FA009DE99E74BC1ED74AFE460 /* MMPlayerBasePresentationController.swift */,
+				1D7527FF55380F6E9F02ADE306B19C86 /* MMPlayerBaseTransition.swift */,
+				6DD6BC2E29E6403E00144B7957AE4387 /* MMPlayerCache.swift */,
+				8AA9C96B631270EADAD154F9D5FAC580 /* MMPlayerDownloader.swift */,
+				6BB5B132CF236627A88FDB4AC7E30DAD /* MMPlayerDownloadManager.swift */,
+				6E6F1ABA986BC831FE6A69A37BCF6665 /* MMPlayerDownloadRequest.swift */,
+				22BC61626A22AADD29C5ED5B4ED76109 /* MMPlayerDownLoadVideoInfo.swift */,
+				62A6977751057F0AA4DA6C8DA361055C /* MMPlayerItem.swift */,
+				03F9E6DC85D4CF01EFE0F8156E486615 /* MMPlayerLayer.swift */,
+				8BE62EDBE50801FBACD5DCE501AB2115 /* MMPlayerObservation.swift */,
+				FF45AA930F0304BED986815687DB5F6A /* MMPlayerPassViewPresentatinController.swift */,
+				DC1CBCA536FB4EC96E3C1F6081E9A608 /* MMPlayerPassViewPresentConfig.swift */,
+				56DF6BA4A0D987481D26F40689D9A66A /* MMPlayerPassViewPresentTransition.swift */,
+				21DC364A6814C008AF2C5E1E7FC401E4 /* MMPlayerPassViewPushConfig.swift */,
+				7879942AF452F1255C564DB8294A6EC8 /* MMPlayerPassViewPushTransition.swift */,
+				06E43E7A36CDAC15268F7F48D934CB73 /* MMPlayerPresentAnimator.swift */,
+				905B93CFFAD0728609AF9D2BC4D22009 /* MMPlayerProtocol.swift */,
+				7E11D16028B8776BE98FBD17319A14B0 /* MMPlayerPushAnimator.swift */,
+				1E079196CC8180375AEA7D897FE8E570 /* MMPlayerShrinkControl.swift */,
+				ED83236CFA5FFEDF56FF47348890E32A /* MMPlayerTransition.swift */,
+				F3FD211A9BF5DA5ED27BA2D86EB7F39E /* MMPlayerTransitionDefine.swift */,
+				C736D1173377BFE0E03D0A0E800FE741 /* MMPlayerView.swift */,
+				A30E4E7E1CE2C62C35D398F93899A647 /* MMProgress.swift */,
+				545FEB83719A243E02C7895E76444D4C /* UIView+LayoutFit.swift */,
+				744420335FA6D05A433C279DD33C2B2C /* UIWindow+Safe.swift */,
+				CFCCFA089DA6885FB1121BB3FD4AF933 /* WeakBox.swift */,
+				FA45A215C66AE74CA48643F979DC9596 /* Support Files */,
+			);
+			name = MMPlayerView;
+			path = MMPlayerView;
+			sourceTree = "<group>";
+		};
+		9B19FAC92AA5671BC376512AF69F2361 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				78B09994AAD77F3074ABAEFEEB49463A /* Info.plist */,
+				0B4B2F940376DA30B2E897D4DF7BFA6C /* SwiftyCam.modulemap */,
+				07264419955675DA56137F7C74D86122 /* SwiftyCam.xcconfig */,
+				B15E06261D5DAF65A6974D27B6C4A83E /* SwiftyCam-dummy.m */,
+				EA9C437E075A459DE2609C2A1AA0C96E /* SwiftyCam-prefix.pch */,
+				ADA27860C5EA4FC523086C178AC53235 /* SwiftyCam-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyCam";
+			sourceTree = "<group>";
+		};
+		A63DA53C6A9EDF777BA012B966D4480F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B98B7232DAC3C473128BB3BEC65EDDD /* Pods-TiktokClone */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7533D5D3FD26EBF094A7A6289DA1625 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E12330B1DBB5CB28EB48756B3D07B634 /* Info.plist */,
+				A7D933E8F4098276DC0609AE45EAFF67 /* SwiftVideoBackground.modulemap */,
+				E8DC532BD353B1AB77C3C5517896666A /* SwiftVideoBackground.xcconfig */,
+				440299737E149371F449308D813A485A /* SwiftVideoBackground-dummy.m */,
+				702A6B683B84C75D179AA3431E7A94C4 /* SwiftVideoBackground-prefix.pch */,
+				E4CF5629156BFD569D1A2C407EC7EB15 /* SwiftVideoBackground-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftVideoBackground";
+			sourceTree = "<group>";
+		};
+		E77A06670B37E8CCF29B4270E6BA9667 /* SwiftyCam */ = {
+			isa = PBXGroup;
+			children = (
+				7F0A2DAA3F003DBB59133AFF4A2D797E /* Orientation.swift */,
+				AABE2F45BE6C92B3E2E8F982B628230B /* PreviewView.swift */,
+				5FB646EBC1D18560DD60597F4B4F058B /* SwiftyCamButton.swift */,
+				A9434C9F9CDEC30E10BF9A41FFAFF86E /* SwiftyCamViewController.swift */,
+				A96EB84E9CFAE6055844AB61C26EBC26 /* SwiftyCamViewControllerDelegate.swift */,
+				9B19FAC92AA5671BC376512AF69F2361 /* Support Files */,
+			);
+			name = SwiftyCam;
+			path = SwiftyCam;
+			sourceTree = "<group>";
+		};
+		FA45A215C66AE74CA48643F979DC9596 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				61A8279C293BE32A9FFC98157F08C37C /* Info.plist */,
+				9382CBB8610E24999B2AB8A4F793E3E8 /* MMPlayerView.modulemap */,
+				AA5E1B5C43F42A80A4FC40BEF6FBB980 /* MMPlayerView.xcconfig */,
+				B4E77B6D98F8E4933DF0D5DFAC3D4773 /* MMPlayerView-dummy.m */,
+				60A3408671EF2E4B793585DB49FC3BCB /* MMPlayerView-prefix.pch */,
+				A5AA8528AC52138412EE278B5BF4D0C5 /* MMPlayerView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MMPlayerView";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		014F183FB52C34DB8FF48141794AFA4A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08EB70ABAB4EF6A0F8E117DFB2A4032A /* Pods-TiktokClone-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		554E6D5D3BE2C3D309D028CF21F0B79E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E18AD002CFADD213B1AB4B2865151B0D /* SwiftVideoBackground-umbrella.h in Headers */,
+				755859B314088182F2FCF17BE46A47EC /* SwiftVideoBackground.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA44251890D30FB036D2FF8E56F3E391 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B7EC1F657E6FACAF05E74F7D4349ECE /* MMPlayerView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC26CDB3D99FD8BEF17091D3531095F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F3135470C0958148D05819B4227547C /* SwiftyCam-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7D6A8131E0BE7420BCF78DC9BD4B117F /* SwiftyCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60215F63A30F7F4369B20CBD1D352352 /* Build configuration list for PBXNativeTarget "SwiftyCam" */;
+			buildPhases = (
+				CF522FE4E74F0F67E43B0FEC22AF35AD /* Sources */,
+				D38A8A0720834EDD3356EA752211FC5B /* Frameworks */,
+				EC26CDB3D99FD8BEF17091D3531095F8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyCam;
+			productName = SwiftyCam;
+			productReference = 8DF1333191E851A84874FD7D53DA60A7 /* SwiftyCam.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A729AC3C574A394CA785CF2595987819 /* SwiftVideoBackground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 687B7BB0DF3A08A13EA375272D674053 /* Build configuration list for PBXNativeTarget "SwiftVideoBackground" */;
+			buildPhases = (
+				07912A6475FF83B3F189749F3884ECBA /* Sources */,
+				4A1078FB1FAAD34E8CFAEC764322286F /* Frameworks */,
+				554E6D5D3BE2C3D309D028CF21F0B79E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftVideoBackground;
+			productName = SwiftVideoBackground;
+			productReference = D38740D30D766B04C3CD235F494F982C /* SwiftVideoBackground.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C3CCE7AF67B3BD80C3D0E23250560932 /* Pods-TiktokClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F22827AD5AA3D529F6893FA955949895 /* Build configuration list for PBXNativeTarget "Pods-TiktokClone" */;
+			buildPhases = (
+				BAE7A5E09FFDD39AF96E47D863EAFA4D /* Sources */,
+				C67684438A46929AE05876D37E709BB5 /* Frameworks */,
+				014F183FB52C34DB8FF48141794AFA4A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A08E519157B92101D17D6747A44598D7 /* PBXTargetDependency */,
+				5E0255B995E4F02859525E4DDD670E48 /* PBXTargetDependency */,
+				9B3A37062ECA66EDF3FC96525DB94B28 /* PBXTargetDependency */,
+			);
+			name = "Pods-TiktokClone";
+			productName = "Pods-TiktokClone";
+			productReference = 5C24B21C192E23B7AA170E617C645148 /* Pods_TiktokClone.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CD419522F78435A93B4CED3C713F84F6 /* MMPlayerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD7ABA38C32BEA6521ADA7258F64AD82 /* Build configuration list for PBXNativeTarget "MMPlayerView" */;
+			buildPhases = (
+				703B03FA1B4B306B8328064EA770E4AF /* Sources */,
+				ED04937A10C7A04A20A1867F7650C2A3 /* Frameworks */,
+				CA44251890D30FB036D2FF8E56F3E391 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMPlayerView;
+			productName = MMPlayerView;
+			productReference = C16877DD0C14F89C33D69E13FDAA4B51 /* MMPlayerView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 34868566F1ADE32D87028834A2BB7D43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD419522F78435A93B4CED3C713F84F6 /* MMPlayerView */,
+				C3CCE7AF67B3BD80C3D0E23250560932 /* Pods-TiktokClone */,
+				A729AC3C574A394CA785CF2595987819 /* SwiftVideoBackground */,
+				7D6A8131E0BE7420BCF78DC9BD4B117F /* SwiftyCam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07912A6475FF83B3F189749F3884ECBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A4F20E4D058AB407B535F6CC88313E0 /* SwiftVideoBackground-dummy.m in Sources */,
+				5C2CC44191D22E41156B98B1BD4E77B8 /* VideoBackground.swift in Sources */,
+				ADCEB8751BEF16F3038880CC507EF289 /* VideoBackgroundError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		703B03FA1B4B306B8328064EA770E4AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17501E6541CEF7B35004A66EEA73086B /* MMLandscapeWindow.swift in Sources */,
+				9670D4BF3E6C0BD175836C265422DEED /* MMPlayer+Codable.swift in Sources */,
+				C5C481E7B84655E11580A0D404884E98 /* MMPlayer+DispatchQueue+Once.swift in Sources */,
+				45D23BFA494A4CBD07DB54D296BBD7E3 /* MMPlayer+NSObject+Replace.swift in Sources */,
+				F4D9FA0A9412662B36F12FE282C9C985 /* MMPlayer+String+Encode.swift in Sources */,
+				706C995E654EEBF1F0C5E5562215D54E /* MMPlayer+UINavigationController+Proxy.swift in Sources */,
+				5E1AEF07C88ED6D3729768E7F316EA23 /* MMPlayer+UIView+Load.swift in Sources */,
+				C3FF837FFA6FB0E6DD3C19AD482AB832 /* MMPlayer+UIView+Shadow.swift in Sources */,
+				080E48CD6EE65751C5B8D0C1B014EBD3 /* MMPlayer+UIViewController+CheckProtocol.swift in Sources */,
+				3AF8BE745BC633E8C37D697D2A1BA58D /* MMPlayerBasePresentationController.swift in Sources */,
+				585208422F214671A7182DF98C056ACC /* MMPlayerBaseTransition.swift in Sources */,
+				D4F765099C1B27EA3B4F9D6FFBFC0B55 /* MMPlayerCache.swift in Sources */,
+				F5126F7F581CF3B9BB4DCB88AF277CC3 /* MMPlayerDownloader.swift in Sources */,
+				DEE8F155B10F556E20D71A2A54C94DCF /* MMPlayerDownloadManager.swift in Sources */,
+				769F54EC7E679CE73EF7C3A9DD73B4B2 /* MMPlayerDownloadRequest.swift in Sources */,
+				57B390BFC2EBC39627577A3A7C76C068 /* MMPlayerDownLoadVideoInfo.swift in Sources */,
+				D29E84F398A3810DA19E5C33C3B65AC9 /* MMPlayerItem.swift in Sources */,
+				B11C66C5291DCFBD593306B6DBC98788 /* MMPlayerLayer.swift in Sources */,
+				4E0B9CD40A94798EB5EEB044960E8EFE /* MMPlayerObservation.swift in Sources */,
+				7D146550E47B82C7BB4E5E70296B6A1D /* MMPlayerPassViewPresentatinController.swift in Sources */,
+				DD363672B4A7CF3FF8E9EFBB7C634ED9 /* MMPlayerPassViewPresentConfig.swift in Sources */,
+				BFBC1B7A5569482D2833BDDEA7F4AEB5 /* MMPlayerPassViewPresentTransition.swift in Sources */,
+				4CE43E5BC22774CD4991D53467905C26 /* MMPlayerPassViewPushConfig.swift in Sources */,
+				41EF5FF7A1152D3E3F5655C857269E91 /* MMPlayerPassViewPushTransition.swift in Sources */,
+				F66A64B3C5B0ACD6DAB67E7DD72E14BB /* MMPlayerPresentAnimator.swift in Sources */,
+				0B942DFAA252A47B4D75D2A7145C7888 /* MMPlayerProtocol.swift in Sources */,
+				B6A37CEE32FA13B0A854D1ACE576CE20 /* MMPlayerPushAnimator.swift in Sources */,
+				531993B70B5D04A0DB9EBFDCC87C1205 /* MMPlayerShrinkControl.swift in Sources */,
+				61FB1AA2F03FBBFFA6940087FC996974 /* MMPlayerTransition.swift in Sources */,
+				764C58EE30CAAC62849BF446B4D08714 /* MMPlayerTransitionDefine.swift in Sources */,
+				AF31667B440AC15D1BD3EEBC32A90E1A /* MMPlayerView-dummy.m in Sources */,
+				8FA8EE7A4DE185A453827BB221AF18EE /* MMPlayerView.swift in Sources */,
+				F18B8DEB897B6E8AA70CD9F7EEB98B24 /* MMProgress.swift in Sources */,
+				02916ECCE40FF1CB1548A3312CCDD448 /* UIView+LayoutFit.swift in Sources */,
+				A4A400B7B48E2870BDF6E6B1F3F7022F /* UIWindow+Safe.swift in Sources */,
+				4DC58A636921448CFAC1BFE46E123CEE /* WeakBox.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE7A5E09FFDD39AF96E47D863EAFA4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6FC2ABF35A9F4E8E13590B138E80B90 /* Pods-TiktokClone-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF522FE4E74F0F67E43B0FEC22AF35AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F797AAABFD84F5A7F572CD25C4D84851 /* Orientation.swift in Sources */,
+				FE4043F96C8E52CA3FB631A8436D3170 /* PreviewView.swift in Sources */,
+				1ED7DF3853730477CF49DAAAC590E41F /* SwiftyCam-dummy.m in Sources */,
+				3210D0D13B6051E568707032A293D834 /* SwiftyCamButton.swift in Sources */,
+				BD488E191EF246B9017122419B4CD02F /* SwiftyCamViewController.swift in Sources */,
+				EBBD7DFC20CC2471366BA9B52C9EBB6B /* SwiftyCamViewControllerDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E0255B995E4F02859525E4DDD670E48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftVideoBackground;
+			target = A729AC3C574A394CA785CF2595987819 /* SwiftVideoBackground */;
+			targetProxy = 5AFA8332ECF72DA6BF5ABB345E3DE433 /* PBXContainerItemProxy */;
+		};
+		9B3A37062ECA66EDF3FC96525DB94B28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyCam;
+			target = 7D6A8131E0BE7420BCF78DC9BD4B117F /* SwiftyCam */;
+			targetProxy = 2D4938EB7C199C09CA3501BFB82AADE3 /* PBXContainerItemProxy */;
+		};
+		A08E519157B92101D17D6747A44598D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MMPlayerView;
+			target = CD419522F78435A93B4CED3C713F84F6 /* MMPlayerView */;
+			targetProxy = B064CDD3B11CD3A7D3EE6BF05F502F34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		063198AB09B9CDB3A695432FC17AD8CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		477B9E29A43FF9072B53C324372963D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07264419955675DA56137F7C74D86122 /* SwiftyCam.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyCam/SwiftyCam-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyCam/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyCam/SwiftyCam.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyCam;
+				PRODUCT_NAME = SwiftyCam;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4F424878BAF78086B2BFFA1C53172757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8DC532BD353B1AB77C3C5517896666A /* SwiftVideoBackground.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftVideoBackground/SwiftVideoBackground-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftVideoBackground/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftVideoBackground/SwiftVideoBackground.modulemap";
+				PRODUCT_MODULE_NAME = SwiftVideoBackground;
+				PRODUCT_NAME = SwiftVideoBackground;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		619872BA40D6EF49184C4C7110EF6735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA5E1B5C43F42A80A4FC40BEF6FBB980 /* MMPlayerView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MMPlayerView/MMPlayerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMPlayerView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MMPlayerView/MMPlayerView.modulemap";
+				PRODUCT_MODULE_NAME = MMPlayerView;
+				PRODUCT_NAME = MMPlayerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A89FEC704B056937B519CDB33F9E97C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8DC532BD353B1AB77C3C5517896666A /* SwiftVideoBackground.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftVideoBackground/SwiftVideoBackground-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftVideoBackground/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftVideoBackground/SwiftVideoBackground.modulemap";
+				PRODUCT_MODULE_NAME = SwiftVideoBackground;
+				PRODUCT_NAME = SwiftVideoBackground;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7F3C2577D4CC497B1F187E22872178D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07264419955675DA56137F7C74D86122 /* SwiftyCam.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyCam/SwiftyCam-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyCam/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyCam/SwiftyCam.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyCam;
+				PRODUCT_NAME = SwiftyCam;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		87EAC867385563488A6D8F1E74AC46B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		97979FC455E6A7A2D0E06ACF8B2647DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89E58EE7F6D55BCDAED31BD66AF3F208 /* Pods-TiktokClone.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TiktokClone/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TiktokClone/Pods-TiktokClone.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C91E759DE640A97F44C59DCE7783364C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA5E1B5C43F42A80A4FC40BEF6FBB980 /* MMPlayerView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MMPlayerView/MMPlayerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMPlayerView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MMPlayerView/MMPlayerView.modulemap";
+				PRODUCT_MODULE_NAME = MMPlayerView;
+				PRODUCT_NAME = MMPlayerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE445CE540DC0A62F28700C9EC3BD690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55D4DFA78F508C0111E196B591CF4DBE /* Pods-TiktokClone.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TiktokClone/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TiktokClone/Pods-TiktokClone.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87EAC867385563488A6D8F1E74AC46B4 /* Debug */,
+				063198AB09B9CDB3A695432FC17AD8CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60215F63A30F7F4369B20CBD1D352352 /* Build configuration list for PBXNativeTarget "SwiftyCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				477B9E29A43FF9072B53C324372963D7 /* Debug */,
+				7F3C2577D4CC497B1F187E22872178D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		687B7BB0DF3A08A13EA375272D674053 /* Build configuration list for PBXNativeTarget "SwiftVideoBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A89FEC704B056937B519CDB33F9E97C /* Debug */,
+				4F424878BAF78086B2BFFA1C53172757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F22827AD5AA3D529F6893FA955949895 /* Build configuration list for PBXNativeTarget "Pods-TiktokClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97979FC455E6A7A2D0E06ACF8B2647DD /* Debug */,
+				CE445CE540DC0A62F28700C9EC3BD690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD7ABA38C32BEA6521ADA7258F64AD82 /* Build configuration list for PBXNativeTarget "MMPlayerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				619872BA40D6EF49184C4C7110EF6735 /* Debug */,
+				C91E759DE640A97F44C59DCE7783364C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

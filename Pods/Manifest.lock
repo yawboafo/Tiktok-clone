@@ -1,0 +1,24 @@
+PODS:
+  - MMPlayerView (4.2.4)
+  - SwiftVideoBackground (3.3.0)
+  - SwiftyCam (4.0.0)
+
+DEPENDENCIES:
+  - MMPlayerView (~> 4.2.4)
+  - SwiftVideoBackground (~> 3.0)
+  - SwiftyCam
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MMPlayerView
+    - SwiftVideoBackground
+    - SwiftyCam
+
+SPEC CHECKSUMS:
+  MMPlayerView: 91e93d3fa6f74655dbd87df6dcf9308f7430cd13
+  SwiftVideoBackground: ebcc843d4cbcfc520e42472dad80925a6433da06
+  SwiftyCam: 6e57914771d972fbe508e759dc9d0150a44a93fd
+
+PODFILE CHECKSUM: 9bb1431e7bcde9a2322459425129af0d2fd8bfb6
+
+COCOAPODS: 1.5.3
