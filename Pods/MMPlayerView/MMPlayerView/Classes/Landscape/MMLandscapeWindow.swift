@@ -10,7 +10,7 @@ import UIKit
 
 public class MMLandscapeWindow: UIWindow {
     
-    public static let shared =  MMLandscapeWindow()
+	public static let shared =  MMLandscapeWindow(frame: .zero)
     weak var currentPlayLayer: MMPlayerLayer?
     weak var originalPlayView: UIView?
     var completed: (()->Void)?
